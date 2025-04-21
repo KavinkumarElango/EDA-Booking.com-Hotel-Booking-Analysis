@@ -53,18 +53,20 @@ ________________________________________
 
 🔸 Bivariate Analysis
 •	Explored relationships between two variables at a time
-•	Examples:
-o	reserved_room_type vs. assigned_room_type
-o	lead_time vs. reservation_status
 
-•	Tools used: Box plots, Heatmaps, Bar plots
+  •	Examples:
+  o	reserved_room_type vs. assigned_room_type
+
+  o	lead_time vs. reservation_status
+
+  •	Tools used: Box plots, Heatmaps, Bar plots
 
 🔺 Multivariate Analysis
 •	Analyzed the interaction between multiple variables
 
-•	Example: lead_time, adr, and days_in_waiting_list in relation to reservation_status
+  •	Example: lead_time, adr, and days_in_waiting_list in relation to reservation_status
 
-•	Tool used: Pair plots
+  •	Tool used: Pair plots
 ________________________________________
 💡 Key Insights & Business Impact
 
