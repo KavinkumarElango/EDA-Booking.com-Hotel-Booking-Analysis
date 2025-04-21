@@ -1,6 +1,7 @@
 🏨 Hotel Booking Data Analysis (EDA)
 
 This project focuses on Exploratory Data Analysis (EDA) of a hotel booking dataset from Booking.com, aiming to uncover actionable insights that can help:
+
 •	Optimize hotel revenue
 •	Reduce booking cancellations
 •	Improve overall customer satisfaction
@@ -8,13 +9,16 @@ ________________________________________
 📂 Dataset Overview
 
 The dataset contains hotel booking records, including variables like:
+
 •	Reservation status
 •	Lead time
 •	Room type
 •	Country
 •	Booking source
 •	Pricing and more
+
 Initial steps include:
+
 •	Viewing column names and data types
 •	Identifying and handling missing values and duplicate entries
 ________________________________________
@@ -23,7 +27,9 @@ ________________________________________
 We addressed the following issues:
 
 •	Missing Values: Imputed for columns such as children, country, agent, and company
+
 •	Outliers: Detected in lead_time and adr using boxplots and handled using the IQR method
+
 •	Duplicates: Removed to ensure data integrity
 ________________________________________
 📊 Data Aggregation & Insight Extraction
@@ -34,12 +40,15 @@ Performed group-wise aggregations and transformations to uncover insights, such 
 •	Top countries by booking volume
 •	Cancellation rate by market segment
 •	And much more...
+
 All data manipulations and insights were documented step-by-step.
 ________________________________________
 📈 Data Visualization
 
 🔹 Univariate Analysis
+
 •	Visualized distributions of individual variables like room_type, lead_time, and customer_type
+
 •	Tools used: Bar charts, Pie charts, Histograms, Count plots, Word cloud
 
 🔸 Bivariate Analysis
@@ -47,11 +56,14 @@ ________________________________________
 •	Examples:
 o	reserved_room_type vs. assigned_room_type
 o	lead_time vs. reservation_status
+
 •	Tools used: Box plots, Heatmaps, Bar plots
 
 🔺 Multivariate Analysis
 •	Analyzed the interaction between multiple variables
+
 •	Example: lead_time, adr, and days_in_waiting_list in relation to reservation_status
+
 •	Tool used: Pair plots
 ________________________________________
 💡 Key Insights & Business Impact
