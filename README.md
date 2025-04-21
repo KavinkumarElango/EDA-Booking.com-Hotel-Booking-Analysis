@@ -1,3 +1,5 @@
+# EDA Hotel Booking Analysis
+
 🏨 Hotel Booking Data Analysis (EDA)
 
 This project focuses on Exploratory Data Analysis (EDA) of a hotel booking dataset from Booking.com, aiming to uncover actionable insights that can help:
